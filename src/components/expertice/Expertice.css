@@ -1,0 +1,42 @@
+.exp {
+    padding: 200px 0px;
+}
+
+.exp__text {
+    text-align: center;
+}
+
+.exp__text h2 {
+    font-size: 80px;
+    font-family: "CabinetGrotesk-Medium";
+    padding-bottom: 20px;
+}
+
+.exp__text p {
+    font-size: 27px;
+    max-width: 950px;
+    margin: auto;
+}
+
+.exp__icon {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.exp__icon div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px 10px;
+}
+
+.item__box {
+    /* max-width: ; */
+    border-radius: 70px;
+    padding: 18px 70px;
+    background: #36A112;
+    font-size: 27px;
+    font-family: "CabinetGrotesk-Bold";
+}

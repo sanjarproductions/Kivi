@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "CabinetGrotesk-Black";
+    src: url(./fonts/CabinetGrotesk-Black.otf);
+    /* medium light bold extra bold */
+}
+
+@font-face {
+    font-family: "CabinetGrotesk-Bold";
+    src: url(./fonts/CabinetGrotesk-Bold.otf);
+    /* medium light bold extra bold */
+}
+
+@font-face {
+    font-family: "CabinetGrotesk-Extrabold";
+    src: url(./fonts/CabinetGrotesk-Extrabold.otf);
+    /* medium light bold extra bold */
+}
+
+@font-face {
+    font-family: "CabinetGrotesk-Extralight";
+    src: url(./fonts/CabinetGrotesk-Extralight.otf);
+    /* medium light bold extra bold */
+}
+
+@font-face {
+    font-family: "CabinetGrotesk-Light";
+    src: url(./fonts/CabinetGrotesk-Light.otf);
+    /* medium light bold extra bold */
+}
+
+@font-face {
+    font-family: "CabinetGrotesk-Medium";
+    src: url(./fonts/CabinetGrotesk-Medium.otf);
+    /* medium light bold extra bold */
+}
+
+@font-face {
+    font-family: "CabinetGrotesk-Regular";
+    src: url(./fonts/CabinetGrotesk-Regular.otf);
+    /* medium light bold extra bold */
+}
+
+@font-face {
+    font-family: "CabinetGrotesk-Thin";
+    src: url(./fonts/CabinetGrotesk-Thin.otf);
+    /* medium light bold extra bold */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "CabinetGrotesk-Regular";
+}
+
+body {
+    background: #000;
+    color: #fff;
+    /* overflow-y: hidden; */
+}
+
+.container {
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,171 @@
+.pay {
+    padding-bottom: 40px;
+    scroll-behavior: smooth
+}
+
+.pay h4 {
+    text-align: center;
+    font-size: 80px;
+    padding-bottom: 60px;
+}
+
+.pay .join {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgb(134, 134, 134, 0.2) 0%, rgb(32, 32, 32, 0.2));
+    border-radius: 37px;
+    padding: 30px;
+    padding-left: 100px;
+    margin-bottom: 40px;
+}
+
+.pay h5 {
+    font-size: 77px;
+    /* max-width: 470px; */
+    line-height: 100%;
+    font-style: italic;
+}
+
+.pay .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0px;
+}
+
+.pay .wrapper .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 25px;
+    border: 1px solid #7C7C7C;
+    border-radius: 37px;
+    color: #fff;
+    transition: 300ms;
+}
+
+.pay .wrapper .box:hover {
+    transform: scale(1.1);
+}
+
+.pay .wrapper .box strong {
+    padding-top: 20px;
+    max-width: 392px;
+    font-size: 21px;
+}
+
+.pay .wrapper .box p {
+    font-size: 14px;
+    padding-top: 15px;
+    max-width: 392px;
+}
+
+.pay-redirect {
+    color: #fff;
+    /* background: #fff; */
+}
+
+
+
+/* CARD */
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 0px 20px;
+    margin-bottom: 40px;
+}
+
+.cards .card {
+    width: 100%;
+    background: linear-gradient(180deg, rgb(134, 134, 134, 0.2) 0%, rgb(32, 32, 32, 0.2));
+    border-radius: 37px;
+    padding: 50px 0px 50px 40px;
+
+}
+
+li {
+    list-style: none;
+}
+
+.card h6 {
+    font-size: 60px;
+}
+
+.card strong {
+    font-size: 25px;
+}
+
+.card .desc {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    gap: 0px 30px;
+    /* justify-content: space-between; */
+}
+
+.card div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0px;
+}
+
+.card a {
+    padding: 15px 60px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 37px;
+    background: linear-gradient(162.62deg, rgb(100, 100, 100) 52.953%, rgba(100, 100, 100, 0) 104.8%);
+    transition: 300ms;
+}
+
+.card a:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+
+
+.membership {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px 50px 40px;
+
+    border: 1px solid #999999;
+    border-radius: 37px;
+}
+
+.membershiip-text h5 {
+    font-size: 77px;
+    padding-bottom: 32px;
+}
+
+.membershiip-text h5 small{
+    font-size: 15px;
+    font-style: italic;
+}
+
+.membershiip-text .desc .membership-price {
+    font-size: 40px;
+}
+
+.membershiip-text .desc {
+    margin-bottom: 60px;
+}
+
+.membershiip-text .desc .membership-desc {
+    font-size: 19px;
+}
+
+.join-waitlist {
+    background: #fff;
+    border: none;
+    padding: 23px 83px;
+    font-size: 20px;
+    border-radius: 37px;
+    color: #000;
+}

@@ -1,0 +1,28 @@
+.footer {
+    padding-top: 300px;
+}
+
+.footer a {
+    color: #fff;
+    font-size: 25px;
+    font-family: "CabinetGrotesk-Thin";
+    /* font-family: "CabinetGrotesk-Light"; */
+
+}
+
+.footer .flex {
+    padding-bottom: 20px;
+}
+
+.footer .flex div{
+    display: flex;
+    gap: 13px;
+}
+
+.footer-logo {
+    font-size: 250px;
+    color: #fff;
+    text-align: center;
+    font-family: "CabinetGrotesk-Black";
+    padding-bottom: 135px;
+}
