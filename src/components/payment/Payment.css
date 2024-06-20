@@ -153,17 +153,13 @@ li {
     font-size: 40px;
 }
 
-.membershiip-text .desc {
+.membership-text .desc {
     margin-bottom: 60px;
 }
 
-.membershiip-text .desc {
-    padding-bottom: 40px;
-}
 
 .membershiip-text .desc .membership-desc {
     font-size: 19px;
-    padding-bottom: 40px;
 }
 
 .join-waitlist {
