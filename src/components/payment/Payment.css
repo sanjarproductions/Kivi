@@ -144,7 +144,7 @@ li {
     padding-bottom: 32px;
 }
 
-.membershiip-text h5 small{
+.membershiip-text h5 small {
     font-size: 15px;
     font-style: italic;
 }
@@ -157,8 +157,13 @@ li {
     margin-bottom: 60px;
 }
 
+.membershiip-text .desc {
+    padding-bottom: 40px;
+}
+
 .membershiip-text .desc .membership-desc {
     font-size: 19px;
+    padding-bottom: 40px;
 }
 
 .join-waitlist {
