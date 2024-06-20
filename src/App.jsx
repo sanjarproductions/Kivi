@@ -15,9 +15,9 @@ function App() {
       <Nav></Nav>
       <Hero></Hero>
       <Slider></Slider>
-      <Expertice></Expertice>
       <CaseStudy></CaseStudy>
       <Payment></Payment>
+      <Expertice></Expertice>
       <FreeProduct></FreeProduct>
       <Slider></Slider>
       <Footer></Footer>

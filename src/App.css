@@ -65,10 +65,206 @@ body {
     margin: auto;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+
+@media(max-width:500px) {
+
+    .nav .container {
+        max-width: 370px;
+        width: 100%;
+    }
+
+    .hero .hero-text h1 {
+        font-size: 60px;
+    }
+
+    .hero .hero-text p {
+        font-size: 15px;
+        padding: 0px 20px;
+    }
+
+    .mySwiper .swiper-wrapper .slider-item {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .exp {
+        padding: 0px 0px;
+    }
+
+    .exp .container {
+        max-width: 370px;
+        width: 100%;
+        /* display: none; */
+    }
+
+    .exp__text {}
+
+    .exp .exp__text h2 {
+        font-size: 58px;
+    }
+
+    .exp .exp__text p {
+        font-size: 15px;
+    }
+
+    .exp .exp__icon {
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+    }
+
+    .exp__icon div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item__box {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .caseStudy {
+        margin-top: 150px;
+    }
+
+    .caseStudy .container {
+        max-width: 370px;
+        width: 100%;
+    }
+
+    .caseStudy .case-study__text h3 {
+        font-size: 58px;
+    }
+
+    .caseStudy .case-study__text p {
+        font-size: 14px;
+    }
+
+    .portfolio .item strong {
+        font-size: 30px;
+    }
+
+    .portfolio .item p {
+        font-size: 25px;
+    }
+
+    .pay .container h4 {
+        font-size: 45px;
+    }
+
+    .pay .container .join {
+        display: flex;
+        flex-direction: column;
+        gap: 20px 0px;
+        padding: 30px 15px;
+    }
+
+    .pay .container .join .box:hover {
+        transform: scale(1);
+    }
+
+    .pay .container .join .box {
+        padding: 15px;
+        border-radius: 14px;
+    }
+
+    .pay .join h5 {
+        font-size: 60px;
+    }
+
+    .pay .membership {
+        display: flex;
+        flex-direction: column;
+        padding: 60px 15px;
+    }
+
+    .membership .membership-text h5 {
+        font-size: 60px;
+        line-height: 20px;
+
+    }
+
+    .membership .membership-text h5 small {
+        font-size: 20px;
+    }
+
+    .membership .membership-text .desc {
+        padding: 40px 0px;
+        margin-bottom: 20px;
+    }
+
+
+    .pay .container {
+        max-width: 370px;
+        width: 100%;
+    }
+
+    .free-prodcut .free-product__text h6 {
+        font-size: 58px;
+    }
+
+    .free-prodcut .free-product__text p {
+        font-size: 20px;
+    }
+
+    .free-prodcut .container {
+        max-width: 370px;
+        width: 100%;
+    }
+
+    body .footer {
+        padding-top: 50px;
+    }
+
+    .footer .footer-text .footer-logo {
+        font-size: 50px;
+        /* display: none; */
+    }
+
+    .footer .footer-text .flex {
+        flex-direction: column;
+        gap: 7px 0px;
+    }
+
+    .footer .container {
+        max-width: 370px;
+        width: 100%;
+    }
+}
+
+@media(max-width:375px) {
+    .nav .container {
+        max-width: 340px;
+        width: 100%;
+    }
+
+    .caseStudy .container {
+        max-width: 340px;
+        width: 100%;
+    }
+
+    .pay .container {
+        max-width: 340px;
+        width: 100%;
+    }
+    .membership .membership-text h5{
+        font-size: 45px;
+    }
+    .free-prodcut .container {
+        max-width: 340px;
+        width: 100%;
+    }
+
+    .exp .container {
+        max-width: 340px;
+        width: 100%;
+    }
 }

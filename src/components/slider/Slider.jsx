@@ -27,8 +27,8 @@ const Slider = () => {
             <SwiperSlide className="slider-item">Dreams</SwiperSlide>
             <SwiperSlide className="slider-item">Become</SwiperSlide>
             <SwiperSlide className="slider-item">Reality</SwiperSlide>
-            <SwiperSlide className="slider-item">Kivi Studio</SwiperSlide>
-            <SwiperSlide className="slider-item"></SwiperSlide>
+            <SwiperSlide className="slider-item">Kivi</SwiperSlide>
+            <SwiperSlide className="slider-item">Studio</SwiperSlide>
             <SwiperSlide className="slider-item"></SwiperSlide>
             <SwiperSlide className="slider-item"></SwiperSlide>
           </Swiper>

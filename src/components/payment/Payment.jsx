@@ -6,7 +6,7 @@ const Payment = () => {
     <>
       <div className="pay" id="join">
         <div className="container">
-          <h4>Have a great idea?</h4>
+          {/* <h4>Have a great idea?</h4> */}
           <div className="join">
             <h5>Join <br /> Kivi Studio</h5>
             <div className="wrapper">
@@ -26,7 +26,8 @@ const Payment = () => {
               </a>
             </div>
           </div>
-          <div className="cards">
+
+          {/* <div className="cards">
             <div className="card">
               <h6>Business</h6>
               <strong>From $999</strong>
@@ -57,10 +58,11 @@ const Payment = () => {
               </ul>
               <a className="card-btn" href="#!">Get Started</a>
             </div>
-          </div>
+          </div> */}
+
           <div className="membership">
-            <div className="membershiip-text">
-              <h5>Membership <small>idea</small></h5>
+            <div className="membership-text">
+              <h5> Membership <small>idea</small> </h5>
               <div className="desc">
                 <p className="membership-price">$1,999/m</p> <br />
                 <p className="membership-desc">Pause or cancel anytime. 
