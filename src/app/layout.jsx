@@ -14,8 +14,9 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "",
-  description: "",
+  title: "Kivi Studio",
+  description: "Kivi Studio - custom code website deasign agency",
+  
 };
 
 export default function RootLayout({ children }) {
