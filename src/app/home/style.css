@@ -1,5 +1,33 @@
-.pg{
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+.home {
+    font-family: "Plus Jakarta Sans", sans-serif;
     background: #131313;
     height: 100vh;
     color: #fff;
+}
+
+.hero {
+    padding-top: 170px;
+}
+
+.hero-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+}
+
+.hero-title {
+    font-size: 100px;
+}
+
+.hero-title span,
+.hero-desc span  {
+    color: #DDFD5D;
+}
+
+.hero-desc {
+    font-size: 28px;
 }

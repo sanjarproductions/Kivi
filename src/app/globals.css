@@ -1,11 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
 }
 
-.underconstuction-page{
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+.underconstuction-page {
+    font-family: 'Courier New', Courier, monospace;
+
     background: #131313;
     height: 100vh;
     color: #fff;
@@ -14,6 +21,6 @@
     justify-content: center;
 }
 
-.linktosignup{
+.linktosignup {
     color: dodgerblue;
 }
