@@ -119,3 +119,53 @@ nav button {
     padding: 20px 60px;
     font-weight: 700;
 }
+
+
+
+/* Our Work */
+
+
+.our-work {
+    padding-top: 68px;
+}
+
+.our-work .container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.our-work h2 {
+    font-size: 32px;
+    color: #DDFD5D;
+}
+
+
+.our-work__text p{
+    max-width: 582px;
+    width: 100%;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.our-work__text p span{
+    color: #DDFD5D;
+}
+
+.our-work__text button{
+    border: none;
+    margin-top: 24px;
+    background: #DDFD5D;
+    border-radius: 38px;
+    padding: 19px 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* Slider */
+
+
+.slider{
+    padding-top: 92px;
+}
