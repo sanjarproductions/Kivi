@@ -7,8 +7,16 @@ a {
 .home {
     font-family: "Plus Jakarta Sans", sans-serif;
     background: #131313;
-    /* height: 100vh; */
+    position: relative;
     color: #fff;
+}
+
+.blob {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
 }
 
 nav {
@@ -20,6 +28,14 @@ nav .container {
     align-items: center;
     justify-content: right;
     gap: 28px;
+}
+
+nav a {
+    color: #fff;
+    border: 1px solid #137926;
+    border-radius: 38px;
+    padding: 14px 40px;
+    font-weight: 700;
 }
 
 nav button {
@@ -40,7 +56,6 @@ nav button {
     z-index: 0;
     top: 8px;
     left: 50%;
-    /* translate:; */
     transform: translateX(-50%);
     display: flex;
     justify-content: center;
@@ -83,10 +98,24 @@ nav button {
     font-size: 28px;
 }
 
-.no-fill-btn {
+.btns-wrapper {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.booking__btn {
+    background: #08B227;
     color: #fff;
-    border: 1px solid #DDFD5D;
     border-radius: 38px;
-    padding: 14px 44px;
+    padding: 20px 60px;
+    font-weight: 700;
+}
+
+.refer__btn {
+    color: #fff;
+    border: 1px solid #137926;
+    border-radius: 38px;
+    padding: 20px 60px;
     font-weight: 700;
 }
