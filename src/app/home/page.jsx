@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 // import required modules
-import { Autoplay,Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 
 import "./style.css"
 import Image from 'next/image'
@@ -65,7 +65,7 @@ const H = () => {
                                 delay: 2500,
                                 disableOnInteraction: false,
                             }}
-                            modules={[Autoplay,Pagination]} className="mySwiper">
+                            modules={[Autoplay, Pagination]} className="mySwiper">
                             <SwiperSlide>Slide 1</SwiperSlide>
                             <SwiperSlide>Slide 2</SwiperSlide>
                             <SwiperSlide>Slide 3</SwiperSlide>
@@ -81,7 +81,24 @@ const H = () => {
 
                         </div>
                     </section>
-
+                    <section className='our-work'>
+                        <div className="container">
+                            <div className="wrapper">
+                                <div className="text">
+                                    <h3>OUR SERVICES</h3>
+                                    <p>We offer a comprehensive range of services to meet your business needs. From user-centered design and digital  solutions to brand consulting.</p>
+                                </div>
+                                <div className="show">
+                                    <div className="text">
+                                        <p>WEBSITE  DESIGN</p>
+                                        <h4>Hongqi  Motors</h4>
+                                        <p>Business challenges are tough, but we have a proven record of elevating our partners to their next and best selves</p>
+                                    </div>
+                                    <Image src={"/img/slider/slide-2.png"} alt='' width={"100"} height={"100"}></Image>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </main>
                 <footer>
                     <div className="container">

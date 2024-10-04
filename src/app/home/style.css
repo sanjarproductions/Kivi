@@ -141,18 +141,18 @@ nav button {
 }
 
 
-.our-work__text p{
+.our-work__text p {
     max-width: 582px;
     width: 100%;
     font-size: 32px;
     font-weight: 500;
 }
 
-.our-work__text p span{
+.our-work__text p span {
     color: #DDFD5D;
 }
 
-.our-work__text button{
+.our-work__text button {
     border: none;
     margin-top: 24px;
     background: #DDFD5D;
@@ -166,6 +166,14 @@ nav button {
 /* Slider */
 
 
-.slider{
+.slider {
     padding-top: 92px;
+    padding-bottom: 89px;
+}
+
+/* Our Services */
+
+.our-services{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }

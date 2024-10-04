@@ -1,0 +1,20 @@
+.privacy {
+    padding-top: 70px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.privacy-desc {
+    max-width: 810px;
+    width: 100%;
+}
+
+.privacy h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.content {
+    padding: 0px 16px;
+    max-width: 810px;
+    width: 100%;
+}
