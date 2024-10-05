@@ -1,13 +1,9 @@
 "use client"
 import React, { useRef, useState } from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/pagination';
-// import required modules
-import { Autoplay, Pagination } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 
 import "./style.css"
 import Image from 'next/image'
@@ -30,9 +26,7 @@ const H = () => {
                     <section className='hero'>
                         <div className="container">
                             <div className="herobg-images">
-                                <img src="/img/hero/right-card.png" alt="" />
-                                <img src="/img/hero/middle-card.png" alt="" />
-                                <img src="/img/hero/left-card.png" alt="" />
+                                <img src="/img/hero-bg-img.png" alt="" />
                             </div>
                             <div className="shaddow"></div>
                             <div className="hero-text">
@@ -40,7 +34,7 @@ const H = () => {
                                 <p className='hero-desc'>Discover a universe wheer <span>creativity flourishes</span>, turning ideas into <span>digital marvels</span> </p>
                                 <div className='btns-wrapper'>
                                     <a className="booking__btn" href='https://calendly.com/sanjar-coder/discovery-call'>Book a Call</a>
-                                    <a className="refer__btn" href='https://calendly.com/sanjar-coder/discovery-call'>Refer a Friend</a>
+                                    <a className="refer__btn" href='#'>Refer a Friend</a>
                                 </div>
                             </div>
                         </div>
@@ -58,51 +52,99 @@ const H = () => {
 
                         <Swiper
                             slidesPerView={3}
-                            spaceBetween={30}
+                            spaceBetween={50}
                             loop={true}
                             speed={1200}
                             autoplay={{
                                 delay: 2500,
                                 disableOnInteraction: false,
                             }}
-                            modules={[Autoplay, Pagination]} className="mySwiper">
-                            <SwiperSlide>Slide 1</SwiperSlide>
-                            <SwiperSlide>Slide 2</SwiperSlide>
-                            <SwiperSlide>Slide 3</SwiperSlide>
-                            <SwiperSlide>Slide 4</SwiperSlide>
-                            <SwiperSlide>Slide 5</SwiperSlide>
-                            <SwiperSlide>Slide 6</SwiperSlide>
-                            <SwiperSlide>Slide 7</SwiperSlide>
-                            <SwiperSlide>Slide 8</SwiperSlide>
-                            <SwiperSlide>Slide 9</SwiperSlide>
+                            modules={[Autoplay]} className="mySwiper">
+
+                            <SwiperSlide>
+                                <a href="#">
+                                    <Image src="/img/slider/slide-2.png" alt="" width={370} height={280}></Image>
+                                </a>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Image src="/img/slider/slide-2.png" alt="" width={370} height={280}></Image>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Image src="/img/slider/slide-2.png" alt="" width={370} height={280}></Image>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Image src="/img/slider/slide-2.png" alt="" width={370} height={280}></Image>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Image src="/img/slider/slide-2.png" alt="" width={370} height={280}></Image>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Image src="/img/slider/slide-2.png" alt="" width={370} height={280}></Image>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Image src="/img/slider/slide-2.png" alt="" width={370} height={280}></Image>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Image src="/img/slider/slide-2.png" alt="" width={370} height={280}></Image>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Image src="/img/slider/slide-2.png" alt="" width={370} height={280}></Image>
+                            </SwiperSlide>
                         </Swiper>
 
                         <div className="container">
 
                         </div>
                     </section>
-                    <section className='our-work'>
+
+                    <section className='our-services'>
                         <div className="container">
                             <div className="wrapper">
-                                <div className="text">
+                                <div className="main__text">
                                     <h3>OUR SERVICES</h3>
                                     <p>We offer a comprehensive range of services to meet your business needs. From user-centered design and digital  solutions to brand consulting.</p>
                                 </div>
                                 <div className="show">
                                     <div className="text">
-                                        <p>WEBSITE  DESIGN</p>
+                                        <p className="service-title">WEBSITE  DESIGN</p>
                                         <h4>Hongqi  Motors</h4>
-                                        <p>Business challenges are tough, but we have a proven record of elevating our partners to their next and best selves</p>
+                                        <p className="project-desc">Business challenges are tough, but we have a proven record of elevating our partners to their next and best selves</p>
                                     </div>
-                                    <Image src={"/img/slider/slide-2.png"} alt='' width={"100"} height={"100"}></Image>
+                                    <Image src={"/img/our-services.png"} alt='' width={"462"} height={"355"}></Image>
                                 </div>
                             </div>
                         </div>
                     </section>
+
+                    <section className="build">
+                        <img src="/img/build-bg-img.png" alt="" className="build-bg-img" />
+                        <div className="container">
+                            <div className="text">
+                                <h5>Let’s Build something with KIVI</h5>
+                                <p>Business challenges are tough, but we have a proven record of elevating our partners to their next and best selves</p>
+                            </div>
+                            <div className="btns-wrapper">
+                                <a href="https://calendly.com/sanjar-coder/discovery-call">Book a Call</a>
+                                <a href="#">See Testimonials</a>
+                            </div>
+                        </div>
+                    </section>
+
                 </main>
+
                 <footer>
                     <div className="container">
-
+                        <div className="info">
+                            <a href="mailto:kiviwebstudio@gmail.com">kiviwebstudio@gmail.com</a>
+                            <p>Remote , Global</p>
+                        </div>
+                        <div className="links">
+                            <a target="_blank" href="https://www.instagram.com/kivistudio_/">OUR INSTAGRAM</a>
+                            <a target="_blank" href="#">OUR TIKTOK</a>
+                            <a target="_blank" href="#">OUR LOCATION</a>
+                            <a target="_blank" href="https://www.youtube.com/@kivistudio_">OUR YOUTUBE</a>
+                        </div>
+                        <div className="decor-logo">Kivi Studio</div>
                     </div>
                 </footer>
             </div>
