@@ -63,32 +63,32 @@ const H = () => {
 
                             <SwiperSlide>
                                 <a href="#">
-                                    <Image src="/img/slider/slide-2.png" alt="" width={370} height={280}></Image>
+                                    <Image src="/img/mclaren.jpg" alt="" width={370} height={280}></Image>
                                 </a>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/img/slider/slide-2.png" alt="" width={370} height={280}></Image>
+                                <Image src="/img/mclaren.jpg" alt="" width={370} height={280}></Image>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/img/slider/slide-2.png" alt="" width={370} height={280}></Image>
+                                <Image src="/img/mclaren.jpg" alt="" width={370} height={280}></Image>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/img/slider/slide-2.png" alt="" width={370} height={280}></Image>
+                                <Image src="/img/mclaren.jpg" alt="" width={370} height={280}></Image>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/img/slider/slide-2.png" alt="" width={370} height={280}></Image>
+                                <Image src="/img/mclaren.jpg" alt="" width={370} height={280}></Image>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/img/slider/slide-2.png" alt="" width={370} height={280}></Image>
+                                <Image src="/img/mclaren.jpg" alt="" width={370} height={280}></Image>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/img/slider/slide-2.png" alt="" width={370} height={280}></Image>
+                                <Image src="/img/mclaren.jpg" alt="" width={370} height={280}></Image>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/img/slider/slide-2.png" alt="" width={370} height={280}></Image>
+                                <Image src="/img/mclaren.jpg" alt="" width={370} height={280}></Image>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/img/slider/slide-2.png" alt="" width={370} height={280}></Image>
+                                <Image src="/img/mclaren.jpg" alt="" width={370} height={280}></Image>
                             </SwiperSlide>
                         </Swiper>
 
