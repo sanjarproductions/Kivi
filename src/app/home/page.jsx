@@ -52,43 +52,44 @@ const H = () => {
 
                         <Swiper
                             slidesPerView={3}
-                            spaceBetween={50}
+                            centeredSlides={true}
+                            spaceBetween={170}
                             loop={true}
-                            speed={1200}
+                            speed={10000}
                             autoplay={{
-                                delay: 2500,
+                                delay: 0,
                                 disableOnInteraction: false,
                             }}
                             modules={[Autoplay]} className="mySwiper">
 
                             <SwiperSlide>
                                 <a href="#">
-                                    <Image src="/img/mclaren.jpg" alt="" width={370} height={280}></Image>
+                                    <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
                                 </a>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/img/mclaren.jpg" alt="" width={370} height={280}></Image>
+                                <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/img/mclaren.jpg" alt="" width={370} height={280}></Image>
+                                <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/img/mclaren.jpg" alt="" width={370} height={280}></Image>
+                                <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/img/mclaren.jpg" alt="" width={370} height={280}></Image>
+                                <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/img/mclaren.jpg" alt="" width={370} height={280}></Image>
+                                <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/img/mclaren.jpg" alt="" width={370} height={280}></Image>
+                                <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/img/mclaren.jpg" alt="" width={370} height={280}></Image>
+                                <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/img/mclaren.jpg" alt="" width={370} height={280}></Image>
+                                <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
                             </SwiperSlide>
                         </Swiper>
 
@@ -140,8 +141,6 @@ const H = () => {
                         </div>
                         <div className="links">
                             <a target="_blank" href="https://www.instagram.com/kivistudio_/">OUR INSTAGRAM</a>
-                            <a target="_blank" href="#">OUR TIKTOK</a>
-                            <a target="_blank" href="#">OUR LOCATION</a>
                             <a target="_blank" href="https://www.youtube.com/@kivistudio_">OUR YOUTUBE</a>
                         </div>
                         <div className="decor-logo">Kivi Studio</div>

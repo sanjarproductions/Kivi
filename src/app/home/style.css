@@ -40,6 +40,7 @@ nav a {
 }
 
 nav button {
+    display: none;
     background: #08B227;
     border: none;
     border-radius: 38px;
