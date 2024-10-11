@@ -4,7 +4,7 @@ import "./privacy.css"
 const Privacy = () => {
   return (
     <>
-       <nav>
+      <nav>
         <div className="container">
           <a href='https://calendly.com/sanjar-coder/discovery-call' className='btn' target='_blank'>Get in Touch</a>
           <button>
@@ -14,41 +14,64 @@ const Privacy = () => {
       </nav>
       <main>
         <div className="container">
-          <h1>Terms and Conditions</h1>
+          <h1>Privacy Policy</h1>
+          <div className="desc">
 
-          <strong>Effective Date: October 3, 2024</strong>
+            <strong>Effective Date: October 3, 2024</strong>
 
-          <p>These Terms and Conditions (&quot;Agreement&quot;) govern your use of the services provided by Kivistudio.uz, including website and web app development. By using our services, you agree to these terms.</p>
+            <p>At Kivistudio.uz, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services, including our website and web app development services.</p>
+          </div>
 
           <div>
-            <b>2. Payments</b>
-            <p> All payments for services rendered are processed securely through Stripe, bank wire transactions, or Payoneer. Payment terms will be outlined in the specific service contract agreed upon with each client.</p>
+            <b>1. Information We Collect</b>
+            <p> We may collect personal information, including but not limited to:</p>
+            <ul>
+              <li>Name</li>
+              <li>Email address</li>
+              <li>Payment information (handled securely via Stripe, bank wire, or Payoneer)</li>
+              <li>Cookies and usage data</li>
+            </ul>
           </div>
           <div>
-            <b>3. Client Responsibilities</b>
-            <p>Clients agree to provide accurate and necessary information for project completion and are responsible for reviewing the work delivered. Any additional work outside the initial scope will incur additional charges.</p>
+            <b>2. How We Use Your Information</b>
+            <p> We use the information we collect to:</p>
+            <ul>
+              <li>Provide, operate, and maintain our services</li>
+              <li>Process payments securely via Stripe, bank wire, or Payoneer</li>
+              <li>Improve our services and website</li>
+              <li>Communicate with you regarding updates, marketing, or technical support</li>
+            </ul>
           </div>
           <div>
-            <b>4. Intellectual Property</b>
-            <p>All intellectual property developed during the project, including code and designs, will be transferred to the client upon final payment. Kivistudio.uz reserves the right to use generic code elements in future projects.</p>
+            <b>3. Sharing Your Information</b>
+            <p>We do not share your personal information with third parties except in the following circumstances:</p>
+            <ul>
+              <li>With third-party service providers like Stripe, Payoneer, or banks to facilitate transactions</li>
+              <li>If required by law or to protect our rights</li>
+            </ul>
           </div>
           <div>
-            <b>5. Limitations of Liability</b>
-            <p>Kivistudio.uz is not responsible for any damages arising from the use of our services or website. Our liability is limited to the amount paid for the service.</p>
+            <b>4. Cookies</b>
+            <p>Our website may use cookies to enhance user experience. You may choose to disable cookies through your browser settings, but doing so may affect the functionality of our site.</p>
           </div>
           <div>
-            <b>6. Termination</b>
-            <p>Either party may terminate the agreement if the other party fails to meet its obligations. Upon termination, all outstanding payments must be settled </p>
+            <b>5. Security</b>
+            <p>We use secure methods to handle your personal information and payments, including SSL encryption and secure payment gateways like Stripe and Payoneer.</p>
           </div>
           <div>
-            <b>7. Governing Law</b>
-            <p> This Agreement is governed by applicable laws and regulations.</p>
+            <b>6. Your Rights</b>
+            <p>You have the right to:</p>
+            <ul>
+              <li>Access, update, or delete your personal information</li>
+              <li>Opt out of marketing communications at any time</li>
+            </ul>
           </div>
           <div>
-            <b>8. Contact Us</b>
-            <p>For any questions regarding these Terms and Conditions, please contact us at:
-              Email: <a href="mailto:kiviwebstudio@gmail.com">kiviwebstudio@gmail.com</a>
-            </p>
+            <b>7. Contact Us</b>
+            <p>If you have any questions regarding this Privacy Policy, please contact us at:</p>
+            <ul>
+              <li>Email: <a href="mailto:kiviwebstudio@gmail.com">kiviwebstudio@gmail.com</a></li>
+            </ul>
           </div>
         </div>
       </main>

@@ -15,11 +15,15 @@ const Terms = () => {
       <main>
         <div className="container">
           <h1>Terms and Conditions</h1>
+          <div className="desc">
+            <strong>Effective Date: October 3, 2024</strong>
+            <p>These Terms and Conditions (&quot;Agreement&quot;) govern your use of the services provided by Kivistudio.uz, including website and web app development. By using our services, you agree to these terms.</p>
+          </div>
 
-          <strong>Effective Date: October 3, 2024</strong>
-
-          <p>These Terms and Conditions (&quot;Agreement&quot;) govern your use of the services provided by Kivistudio.uz, including website and web app development. By using our services, you agree to these terms.</p>
-
+          <div>
+            <b>1. Services</b>
+            <p>Kivistudio.uz provides custom website and web app development services. The scope of services will be detailed in project-specific agreements between us and the client.</p>
+          </div>
           <div>
             <b>2. Payments</b>
             <p> All payments for services rendered are processed securely through Stripe, bank wire transactions, or Payoneer. Payment terms will be outlined in the specific service contract agreed upon with each client.</p>
