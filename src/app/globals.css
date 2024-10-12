@@ -31,7 +31,7 @@ a {
     height: 30px;
     background: white;
     border-radius: 50%;
-    display: none;
+    /* display: none; */
 }
 
 nav {

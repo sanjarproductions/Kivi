@@ -16,7 +16,7 @@ const Testimonials = () => {
         <main>
           <div className="container">
             <h1>Page is Under Construction</h1>
-            <p>patiance my brother</p>
+            <p>patience my brother</p>
           </div>
         </main>
       </div>
