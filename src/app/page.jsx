@@ -2,7 +2,7 @@
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Blob from './components/Blob/Blob';
-import Menu from './components/Menu/Menu'
+// import Menu from './components/Menu/Menu'
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 
@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <div className="home">
         <Blob />
-        <Menu />
+        {/* <Menu /> */}
         <nav>
           <div className="container">
             <a href='/contact' className='btn' target='_blank'>Get in Touch</a>
