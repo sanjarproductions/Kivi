@@ -1,7 +1,7 @@
 "use client"
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import Blob from './components/Blob/blob';
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 
@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <div className="home">
-        <div className="blob" id='blob'></div>
+        <Blob />
         <nav>
           <div className="container">
             <a href='/contact' className='btn' target='_blank'>Get in Touch</a>
