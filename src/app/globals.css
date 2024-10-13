@@ -25,15 +25,6 @@ a {
     color: #fff;
 }
 
-.blob {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background: white;
-    border-radius: 50%;
-    /* display: none; */
-}
-
 nav {
     padding-top: 56px;
 }
