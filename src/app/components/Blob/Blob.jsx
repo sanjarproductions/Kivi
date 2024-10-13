@@ -4,6 +4,7 @@ import "./Blob.css"
 const Blob = () => {
   return (
     <>
+    {/* this comment is for vercel */}
         <div className="blob" id='blob'></div>
     </>
   )
