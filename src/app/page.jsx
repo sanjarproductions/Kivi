@@ -2,6 +2,7 @@
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Blob from './components/Blob/Blob';
+import Menu from './components/Menu/Menu'
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 
@@ -9,14 +10,20 @@ import { Autoplay } from 'swiper/modules';
 import Image from 'next/image'
 
 export default function Home() {
+  const [MenuOpen, setMenuOpen] = useState(false)
+
+  const HandleClick = () => {
+    setMenuOpen(true)
+  }
   return (
     <>
       <div className="home">
-        <Blob/>
+        <Blob />
+        <Menu />
         <nav>
           <div className="container">
             <a href='/contact' className='btn' target='_blank'>Get in Touch</a>
-            <button>
+            <button onClick={HandleClick}>
               <img src="/img/burger-menu.svg" alt="Burger Menu" width={24} height={8} />
             </button>
           </div>
