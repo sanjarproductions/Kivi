@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 
-export default function ClientLayout({ children }) { // Accept children as a prop
+export default function ClientLayout({ children }) {
     const router = useRouter();
 
     useEffect(() => {
@@ -33,7 +33,7 @@ export default function ClientLayout({ children }) { // Accept children as a pro
           `,
                 }}
             />
-            {children} {/* Render children inside the layout */}
+            {children}
         </>
     );
 }
