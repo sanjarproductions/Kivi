@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useState, useRef } from 'react'
-import "./blob.css"
+import "./Blob.css"
 
 const Blob = () => {
   const blobRef = useRef(null)
