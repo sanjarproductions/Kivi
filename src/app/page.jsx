@@ -1,34 +1,62 @@
 "use client"
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Blob from './components/Blob/Blob';
-// import Menu from './components/Menu/Menu'
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
-
-// import "./style.css"
+// Components
+import Blob from './components/Blob/Blob';
 import Image from 'next/image'
+// Images & Icons
+// import closeIcon from "./img/closeIcon.svg"
 
 export default function Home() {
-  const [MenuOpen, setMenuOpen] = useState(false)
 
-  const HandleClick = () => {
-    setMenuOpen(true)
+  const [menuState, setMenuState] = useState(false)
+
+  const handleClick = () => {
+    setMenuState(!menuState)
   }
+  console.log(menuState)
+
   return (
     <>
       <div className="home">
-        <Blob />
-        {/* <Menu /> */}
+        <Blob/>
+
+        <div className={`menu ${menuState ? "open" : ""}`}>
+          <div className="container">
+
+            <div className="close-btn__wrapper">
+              <button onClick={handleClick}>
+                <img src="/img/closeIcon.svg" alt="" />
+              </button>
+            </div>
+            <div className="content-wrapper">
+              <ul className='contact'>
+                <li><p>LET’S TALK WITH US</p></li>
+                <li><a href="mailto:kivistuido@gmail.com">kivistuido@gmail.com</a></li>
+                <li><p>Kivi Studio Global</p></li>
+              </ul>
+              <ul className='links'>
+                <li><a href="/ourwork">Our Work</a></li>
+                <li><a href="/aboutus">About Us</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
         <nav>
           <div className="container">
             <a href='/contact' className='btn' target='_blank'>Get in Touch</a>
-            <button onClick={HandleClick}>
+            <button onClick={handleClick}>
               <img src="/img/burger-menu.svg" alt="Burger Menu" width={24} height={8} />
             </button>
           </div>
         </nav>
-        <main>
+        <main className={`main ${menuState ? "menuopen" : ""}`}>
           <section className='hero'>
             <div className="container">
               <div className="herobg-images">
@@ -156,3 +184,14 @@ export default function Home() {
     </>
   );
 }
+
+
+
+// Menu (open & close)
+// 3rd Section slider inshallah
+// Study Case Page
+// Contact Us Page
+
+// Refferal Programm
+// Mobile Responsiveness
+// 

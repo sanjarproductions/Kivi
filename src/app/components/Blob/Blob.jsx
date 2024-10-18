@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { useState, useRef } from 'react'
+import { useRef } from 'react'
 import "./Blob.css"
 
 const Blob = () => {
@@ -11,12 +11,10 @@ const Blob = () => {
     const handlePointerMove = (event) => {
       const { clientX, clientY } = event;
       if (blob) {
-        // blob.style.left = `${clientX}px`;
-        // blob.style.top = `${clientY}px`;
         blob.animate({
           left: `${clientX}px`,
           top: `${clientY}px`
-        }, {duration: 3000, fill: "forwards"});
+        }, { duration: 3000, fill: "forwards" });
       }
     }
 
