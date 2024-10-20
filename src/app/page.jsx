@@ -8,6 +8,7 @@ import { Autoplay } from 'swiper/modules';
 // Components
 import Blob from './components/Blob/Blob';
 import Menu from './components/Menu/Menu';
+import Footer from './components/Footer/Footer';
 import Image from 'next/image'
 
 export default function Home() {
@@ -58,32 +59,31 @@ export default function Home() {
               modules={[Autoplay]} className="mySwiper">
 
               <SwiperSlide>
-                <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
+                <Image src="/img/cars/dongfeng.svg" alt="" width={370} height={280}></Image>
               </SwiperSlide>
               <SwiperSlide>
-                <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
+                <Image src="/img/cars/jetour.svg" alt="" width={370} height={280}></Image>
               </SwiperSlide>
               <SwiperSlide>
-                <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
+                <Image src="/img/cars/hongqi.svg" alt="" width={370} height={280}></Image>
               </SwiperSlide>
               <SwiperSlide>
-                <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
+                <Image src="/img/cars/bestune.svg" alt="" width={370} height={280}></Image>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <Image src="/img/cars/dongfeng.svg" alt="" width={370} height={280}></Image>
               </SwiperSlide>
               <SwiperSlide>
-                <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
+                <Image src="/img/cars/jetour.svg" alt="" width={370} height={280}></Image>
               </SwiperSlide>
               <SwiperSlide>
-                <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
+                <Image src="/img/cars/hongqi.svg" alt="" width={370} height={280}></Image>
               </SwiperSlide>
               <SwiperSlide>
-                <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
+                <Image src="/img/cars/bestune.svg" alt="" width={370} height={280}></Image>
               </SwiperSlide>
-              <SwiperSlide>
-                <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
-              </SwiperSlide>
-              <SwiperSlide>
-                <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
-              </SwiperSlide>
+
             </Swiper>
 
             <div className="container">
@@ -123,7 +123,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-
+          <Footer />
         </main>
 
 
