@@ -13,8 +13,9 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <>
+      {/* <Blob /> */}
+
       <div className="home">
-        <Blob />
         <Menu />
         <main>
           <section className='hero'>
@@ -125,7 +126,7 @@ export default function Home() {
 
         </main>
 
-        
+
       </div>
     </>
   );

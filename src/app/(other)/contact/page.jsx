@@ -7,7 +7,9 @@ import Footer from '@/app/components/Footer/Footer'
 const Contact = () => {
   return (
     <>
-      <div className="contact">
+      <div className="contactpg-wrapper">
+        {/* <Blob /> */}
+
         <Menu />
         <div className="content">
           <div className="container">

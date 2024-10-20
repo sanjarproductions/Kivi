@@ -1,25 +1,55 @@
 import React from 'react'
 import './ourwork.css'
 
+//Components
+import Menu from '@/app/components/Menu/Menu'
+import Footer from '@/app/components/Footer/Footer'
+
 const OurWork = () => {
   return (
     <>
-      <div className="about">
-        <nav>
-          <div className="container">
-            <a href='https://calendly.com/sanjar-coder/discovery-call' className='btn' target='_blank'>Get in Touch</a>
-            <button>
-              <img src="/img/burger-menu.svg" alt="Burger Menu" width={24} height={8} />
-            </button>
+      <Menu />
+      <div className="ourworkpg-wrapper">
+        <div className="container">
+          <div className="header">
+            <h1>Discover Our <br />
+              Latest Work</h1>
           </div>
-        </nav>
-        <main>
-          <div className="container">
-            <h1>Page is Under Construction</h1>
-            <p>patience my brother</p>
-          </div>
-        </main>
+          <main>
+            <div className="cards">
+              <div className="card">
+                <img src="/img/img.svg" alt="" />
+                <div className="card-text">
+                  <p>Website Development</p>
+                  <p>Dong Feng Website</p>
+                </div>
+              </div>
+              <div className="card">
+                <img src="/img/img.svg" alt="" />
+                <div className="card-text">
+                  <p>Website Development</p>
+                  <p>Dong Feng Website</p>
+                </div>
+              </div>
+              <div className="card">
+                <img src="/img/img.svg" alt="" />
+                <div className="card-text">
+                  <p>Website Development</p>
+                  <p>Dong Feng Website</p>
+                </div>
+              </div>
+              <div className="card">
+                <img src="/img/img.svg" alt="" />
+                <div className="card-text">
+                  <p>Website Development</p>
+                  <p>Dong Feng Website</p>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
       </div>
+      <Footer />
     </>
   )
 }
