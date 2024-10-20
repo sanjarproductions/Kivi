@@ -7,13 +7,16 @@ a {
     background: #131313;
     position: relative;
     color: #fff;
-    height: 100vh;
     text-align: center;
 }
 
+.flex {
+    display: flex;
+}
 
 nav {
     padding-top: 56px;
+    padding-bottom: 80px;
 }
 
 nav .container {
@@ -39,10 +42,112 @@ nav button {
     padding: 20px 15px;
 }
 
-.contact main {
+/* Header */
+.header .flex {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title {
+    position: relative;
+    padding-bottom: 360px;
+}
+
+.header-title h1 {
+    font-size: 180px;
+    font-weight: 800;
+    line-height: 150px;
+    letter-spacing: -2px;
+    z-index: 2;
+    position: relative;
+}
+
+.header-title img {
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    z-index: 1;
+}
+
+.header-desc p {
+    max-width: 500px;
+    font-size: 24px;
+    line-height: 43px;
+    letter-spacing: -1px;
+    text-align: left;
+}
+
+/* Form */
+
+form {
     padding: 100px 0px;
 }
 
-.contact main h1 {
-    font-size: 60px;
+form .flex {
+    display: flex;
+    align-items: center;
+    /* gap: 72px; */
+    justify-content: space-between;
 }
+
+form .client-data {
+    width: 100%;
+    max-width: 536px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+form .client-data input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    max-height: 69px;
+    background: transparent;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    outline: none;
+    color: #fff;
+}
+
+form .client-data select {
+    border: none;
+    border-bottom: 1px solid #fff;
+    max-height: 69px;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    outline: none;
+    color: #fff;
+}
+
+form .client-message {
+    width: 100%;
+    max-width: 472px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form .send-btn {
+    color: #fff;
+    padding: 20px 0px;
+    border-radius: 38px;
+    background: #08B227;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    max-width: 220px;
+}
+
+.contact form ::placeholder {
+    color: #fff;
+    /* Firefox */
+}
+
+.contact form ::-ms-input-placeholder {
+    /* Edge 12 -18 */
+    color: #fff;
+}
+

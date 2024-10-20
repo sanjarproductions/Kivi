@@ -1,62 +1,22 @@
 "use client"
 import React, { useState } from 'react';
-
+import Link from 'next/link';
+// Swiper
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 // Components
 import Blob from './components/Blob/Blob';
+import Menu from './components/Menu/Menu';
 import Image from 'next/image'
-// Images & Icons
-// import closeIcon from "./img/closeIcon.svg"
 
 export default function Home() {
-
-  const [menuState, setMenuState] = useState(false)
-
-  const handleClick = () => {
-    setMenuState(!menuState)
-  }
-  console.log(menuState)
-
   return (
     <>
       <div className="home">
-        <Blob/>
-
-        <div className={`menu ${menuState ? "open" : ""}`}>
-          <div className="container">
-
-            <div className="close-btn__wrapper">
-              <button onClick={handleClick}>
-                <img src="/img/closeIcon.svg" alt="" />
-              </button>
-            </div>
-            <div className="content-wrapper">
-              <ul className='contact'>
-                <li><p>LET’S TALK WITH US</p></li>
-                <li><a href="mailto:kivistuido@gmail.com">kivistuido@gmail.com</a></li>
-                <li><p>Kivi Studio Global</p></li>
-              </ul>
-              <ul className='links'>
-                <li><a href="/ourwork">Our Work</a></li>
-                <li><a href="/aboutus">About Us</a></li>
-                <li><a href="/contact">Contact Us</a></li>
-              </ul>
-            </div>
-
-          </div>
-        </div>
-
-        <nav>
-          <div className="container">
-            <a href='/contact' className='btn' target='_blank'>Get in Touch</a>
-            <button onClick={handleClick}>
-              <img src="/img/burger-menu.svg" alt="Burger Menu" width={24} height={8} />
-            </button>
-          </div>
-        </nav>
-        <main className={`main ${menuState ? "menuopen" : ""}`}>
+        <Blob />
+        <Menu />
+        <main>
           <section className='hero'>
             <div className="container">
               <div className="herobg-images">
@@ -78,7 +38,7 @@ export default function Home() {
               <h2>OUR WORK</h2>
               <div className='our-work__text'>
                 <p>Business challenges are tough, but we have a <span> proven record of elevating our </span> partners to their next and best selves</p>
-                <a href="/ourwork" className="more-btn">See More Work</a>
+                <Link href="/ourwork" className="more-btn">See More Work</Link>
               </div>
             </div>
           </section>
@@ -97,9 +57,7 @@ export default function Home() {
               modules={[Autoplay]} className="mySwiper">
 
               <SwiperSlide>
-                <a href="#">
-                  <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
-                </a>
+                <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
               </SwiperSlide>
               <SwiperSlide>
                 <Image src="/img/img.svg" alt="" width={370} height={280}></Image>
@@ -160,26 +118,14 @@ export default function Home() {
               </div>
               <div className="btns-wrapper">
                 <a href="https://calendly.com/sanjar-coder/discovery-call">Book a Call</a>
-                <a href="/testimonials">See Testimonials</a>
+                <Link href="/testimonials">See Testimonials</Link>
               </div>
             </div>
           </section>
 
         </main>
 
-        <footer>
-          <div className="container">
-            <div className="info">
-              <a href="mailto:kiviwebstudio@gmail.com">kiviwebstudio@gmail.com</a>
-              <p>Remote , Global</p>
-            </div>
-            <div className="links">
-              <a target="_blank" href="https://www.instagram.com/kivistudio_/">OUR INSTAGRAM</a>
-              <a target="_blank" href="https://www.youtube.com/@kivistudio_">OUR YOUTUBE</a>
-            </div>
-            <div className="decor-logo">Kivi Studio</div>
-          </div>
-        </footer>
+        
       </div>
     </>
   );
@@ -189,6 +135,7 @@ export default function Home() {
 
 // Menu (open & close)
 // 3rd Section slider inshallah
+// React Router DOM for Next.JS (Link)
 // Study Case Page
 // Contact Us Page
 
