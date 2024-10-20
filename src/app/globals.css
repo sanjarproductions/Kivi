@@ -18,6 +18,7 @@ a {
 }
 
 body {
+    position: relative;
     background: #131313;
     color: #fff;
 }

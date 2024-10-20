@@ -32,7 +32,7 @@ const Menu = () => {
             </ul>
             <ul className='links'>
               <li><Link href="/ourwork">Our Work</Link></li>
-              <li><Link href="/aboutus">About Us</Link></li>
+              <li><Link href="/about">About Us</Link></li>
               <li><Link href="/contact">Contact Us</Link></li>
             </ul>
           </div>

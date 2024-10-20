@@ -134,12 +134,12 @@ export default function Home() {
 
 
 
-// Menu (open & close)
-// 3rd Section slider inshallah
-// React Router DOM for Next.JS (Link)
-// Study Case Page
-// Contact Us Page
+// + Menu (open & close)
+// + React Router DOM for Next.JS (Link)
+// + Study Case Page
+// + Contact Us Page
 
+// 3rd Section slider inshallah
+// Submit Form Function
 // Refferal Programm
 // Mobile Responsiveness
-// 
