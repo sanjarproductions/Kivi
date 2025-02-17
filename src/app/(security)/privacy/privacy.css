@@ -1,0 +1,39 @@
+* {
+    background: #131313;
+    color: #fff;
+}
+
+main h1 {
+    padding: 50px 0px;
+    font-size: 100px;
+}
+
+main .desc {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px 0px;
+}
+
+main .desc p {
+    font-size: 15px;
+    max-width: 600px;
+}
+
+main div {
+    padding-bottom: 14px;
+}
+
+main div p {
+    padding-top: 7px;
+    font-size: 14px;
+    max-width: 810px;
+}
+
+main div ul {
+    padding: 5px 20px;
+}
+
+main div ul li {
+    font-size: 13px;
+}

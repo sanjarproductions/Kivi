@@ -1,0 +1,147 @@
+a {
+    text-decoration: none;
+}
+
+.contactpg-wrapper {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background: #131313;
+    color: #fff;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/* Header */
+
+.header .flex {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title {
+    position: relative;
+    padding-bottom: 360px;
+}
+
+.header-title h1 {
+    font-size: 180px;
+    font-weight: 800;
+    line-height: 150px;
+    letter-spacing: -2px;
+    z-index: 2;
+    position: relative;
+}
+
+.header-title img {
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    z-index: 1;
+}
+
+.header-desc p {
+    z-index: 2;
+    position: relative;
+    max-width: 500px;
+    font-size: 24px;
+    line-height: 43px;
+    letter-spacing: -1px;
+    text-align: left;
+}
+
+/* Form */
+
+form {
+    padding: 100px 0px;
+}
+
+form .flex {
+    display: flex;
+    align-items: center;
+    /* gap: 72px; */
+    justify-content: space-between;
+}
+
+form .client-data {
+    width: 100%;
+    max-width: 536px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+form .client-data input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    max-height: 69px;
+    background: transparent;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    outline: none;
+    color: #fff;
+}
+
+form .client-data select {
+    border: none;
+    border-bottom: 1px solid #fff;
+    max-height: 69px;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    outline: none;
+    color: #fff;
+}
+
+form .client-message {
+    width: 100%;
+    max-width: 472px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form .send-btn {
+    color: #fff;
+    padding: 20px 0px;
+    border-radius: 38px;
+    background: #08B227;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    max-width: 220px;
+}
+
+form .client-message {
+    height: 520px;
+}
+
+form .client-message textarea {
+    max-height: 520px;
+    height: 100%;
+    resize: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    padding: 36px 39px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    background: rgba(72, 72, 72, 0.31);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+}
+
+
+::placeholder {
+    color: #fff;
+    /* Firefox */
+}
+
+::-ms-input-placeholder {
+    /* Edge 12 -18 */
+    color: #fff;
+}

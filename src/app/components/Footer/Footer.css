@@ -1,0 +1,69 @@
+/* Footer */
+
+footer {
+    overflow: hidden;
+    position: relative;
+    padding-top: 100px;
+    border-radius: 50% 50% 0px 0px;
+    background: #fff;
+    margin-top: 79px;
+    text-align: center;
+}
+
+footer .info {
+    margin-bottom: 103px;
+}
+
+footer .info a {
+    color: #137926;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+footer .info p {
+    margin-top: 16px;
+    color: #000;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+footer .links {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    padding-bottom: 200px;
+}
+
+.links a {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.decor-logo {
+    position: absolute;
+    bottom: -88px;
+    left: 12%;
+    color: #000;
+    font-size: 210px;
+    font-weight: 800;
+}
+
+
+/*
+.underconstuction-page {
+    font-family: 'Courier New', Courier, monospace;
+
+    background: #131313;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linktosignup {
+    color: dodgerblue;
+} */

@@ -1,0 +1,131 @@
+nav {
+    position: relative;
+    z-index: 1;
+    padding-top: 56px;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 28px;
+}
+
+
+nav a {
+    color: #fff;
+    border: 1px solid #137926;
+    border-radius: 38px;
+    padding: 14px 40px;
+    font-weight: 700;
+    transition: 200ms;
+}
+
+
+nav a:hover {
+    color: #fff;
+    border: 1px solid #fff;
+
+}
+
+nav button {
+    cursor: pointer;
+    background: #08B227;
+    border: none;
+    border-radius: 38px;
+    padding: 20px 15px;
+}
+
+/* Menu */
+
+.menu {
+    padding-top: 60px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 5;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: 0.3s ease-in-out;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+}
+
+.menu::-webkit-scrollbar {
+    display: none;
+}
+
+.menu ul,
+li {
+    list-style-type: none;
+}
+
+.menu.open {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.menu .close-btn__wrapper {
+    display: flex;
+    justify-content: right;
+    padding-bottom: 130px;
+}
+
+.menu .close-btn__wrapper button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.menu .close-btn__wrapper button:hover {
+    transform: scale(1.1);
+}
+
+.menu .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .content-wrapper .contact li {
+    padding-bottom: 16px;
+}
+
+.menu .content-wrapper .contact li a {
+    color: #000;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.menu .content-wrapper .contact li:first-child p {
+    color: #137926;
+    font-weight: 800;
+}
+
+.menu .content-wrapper .contact li p {
+    color: #000;
+    font-size: 20px;
+}
+
+.menu .content-wrapper .links {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu .content-wrapper .links li a {
+    padding-bottom: 10px;
+    font-size: 72px;
+    font-weight: 800;
+    transition: 300ms;
+}
+
+.menu .content-wrapper .links li a:hover {
+    color: #137926;
+}

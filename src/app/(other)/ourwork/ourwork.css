@@ -1,0 +1,60 @@
+.ourworkpg-wrapper .header {
+    padding-top: 130px;
+    padding-bottom: 253px;
+}
+
+.ourworkpg-wrapper h1 {
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 111px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+h1 span {
+    color: #DDFD5D;
+
+}
+
+.cards {
+    padding: 108px 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 100px 30px;
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 471px;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.cards .card:hover {
+    transform: scale(1.01);
+}
+
+.cards .card img {
+    padding-bottom: 16px;
+}
+
+.cards .card .card-text {
+    text-align: center;
+}
+
+.cards .card .card-text p {
+    padding-bottom: 8px;
+}
+
+.cards .card .card-text p:first-child {
+    color: #DDFD5D;
+}
+
+.cards .card .card-text p:last-child {
+    font-size: 40px;
+    font-weight: 700; 
+}
