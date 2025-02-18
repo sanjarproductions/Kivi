@@ -1,14 +1,13 @@
 "use client"
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import Link from 'next/link';
-// Swiper
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
-// Components
-import Blob from './components/Blob/Blob';
-import Menu from './components/Menu/Menu';
-import Footer from './components/Footer/Footer';
+import 'swiper/css';
+
+import Blob from '../../components/Blob/Blob';
+import Menu from '../../components/Menu/Menu';
+import Footer from '../../components/Footer/Footer';
 import Image from 'next/image'
 
 const Home = () => {
